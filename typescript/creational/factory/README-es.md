@@ -22,7 +22,7 @@ En este ejemplo, se crea una clase `Creator` que define un método `factoryMetho
 - **Template Method**: Factory Method es un Template Method especializado en la creación de objetos.
 
 ## Diagrama de clases
-![Diagrama de clases](https://upload.wikimedia.org/wikipedia/commons/3/3f/Factory_Method_UML_class_diagram.svg)
+![Diagrama de clases](https://i.stack.imgur.com/B9hpn.png)
 
 ## Aplicabilidad
 Utiliza el patrón Factory Method cuando:
