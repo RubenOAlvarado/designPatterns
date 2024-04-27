@@ -41,7 +41,7 @@ bike.drive(); // Output: Riding a bike
 
 ## Class Diagram
 ![Factory Method](
-https://stackoverflow.com/questions/53895044/clarifying-uml-class-diagram-of-factory-method-design-pattern)
+https://i.stack.imgur.com/B9hpn.png)
 
 ## Applicability
 Use the Factory Method pattern when:
