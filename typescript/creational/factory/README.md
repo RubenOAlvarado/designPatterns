@@ -38,7 +38,6 @@ bike.drive(); // Output: Riding a bike
 - You can use Factory Method along with Chain of Responsibility. In this case, the pattern lets you decide which class will be the next handler at runtime.
 - You can use Factory Method along with Strategy. This allows you to swap strategies inside the context object.
 - You can use Factory Method along with Visitor. This lets you change the executing algorithm of an element without changing the element itself.
-```
 
 ## Class Diagram
 ![Factory Method](
