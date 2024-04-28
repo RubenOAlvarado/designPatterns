@@ -1,4 +1,8 @@
+import { ElectricPokemonFactory } from './factories/electric.pokemon.factory';
+import { FairyPokemonFactory } from './factories/fairy.pokemon.factory';
 import { FirePokemonFactory } from './factories/fire.pokemon.factory';
+import { InsectPokemonFactory } from './factories/insect.pokemon.factory';
+import { WaterPokemonFactory } from './factories/water.pokemon.factory';
 import { PokemonFactory } from './interfaces/pokemon.factory.interface';
 
 function createFirePokemons(){
@@ -12,7 +16,7 @@ function createFirePokemons(){
 }
 
 function createInsectPokemons(){
-    const insectFactory: PokemonFactory = new FirePokemonFactory();
+    const insectFactory: PokemonFactory = new InsectPokemonFactory();
     const caterpie = insectFactory.createPokemon('Caterpie');
     const metapod = insectFactory.createPokemon('Metapod');
     const butterfree = insectFactory.createPokemon('Butterfree');
@@ -22,7 +26,7 @@ function createInsectPokemons(){
 }
 
 function createFairyPokemons(){
-    const fairyFactory: PokemonFactory = new FirePokemonFactory();
+    const fairyFactory: PokemonFactory = new FairyPokemonFactory();
     const clefairy = fairyFactory.createPokemon('Clefairy');
     const clefable = fairyFactory.createPokemon('Clefable');
     console.log(clefairy);
@@ -30,7 +34,7 @@ function createFairyPokemons(){
 }
 
 function createElectricPokemons(){
-    const electricFactory: PokemonFactory = new FirePokemonFactory();
+    const electricFactory: PokemonFactory = new ElectricPokemonFactory();
     const pikachu = electricFactory.createPokemon('Pikachu');
     const raichu = electricFactory.createPokemon('Raichu');
     console.log(pikachu);
@@ -38,7 +42,7 @@ function createElectricPokemons(){
 }
 
 function createWaterPokemons(){
-    const waterFactory: PokemonFactory = new FirePokemonFactory();
+    const waterFactory: PokemonFactory = new WaterPokemonFactory();
     const squirtle = waterFactory.createPokemon('Squirtle');
     const wartortle = waterFactory.createPokemon('Wartortle');
     const blastoise = waterFactory.createPokemon('Blastoise');
