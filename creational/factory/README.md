@@ -2,7 +2,7 @@
 Factory method is a creational design pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.
 
 ## Implementation
-In this example, we have a `VehicleFactory` class that has a `createVehicle` method that returns a `Vehicle` object. We have two subclasses of `VehicleFactory` class, `CarFactory` and `BikeFactory` that override the `createVehicle` method to return a `Car` and `Bike` object respectively.
+In this example, we have a class `PokemonFactory` that has a method `createPokemon` that returns an object of type `Pokemon`. We have subclasses of the class `PokemonFactory`, like `FirePokemonFactory` and `WaterPokemonFactory`, that override the method `createPokemon` to return objects of type `FirePokemon` and `WaterPokemon` respectively.
 
 ## When to use
 Use the Factory Method pattern when you don’t know beforehand the exact types and dependencies of the objects your code should work with.

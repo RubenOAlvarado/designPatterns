@@ -1,0 +1,32 @@
+{
+  "name": "abstract-factory",
+  "version": "1.0.0",
+  "description": "Typescript implementation example for the Abstract Factory design pattern using Dragon Ball manga editions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubenOAlvarado/designPatterns.git#main"
+  },
+  "keywords": [
+    "factory",
+    "abstract",
+    "typescript",
+    "dragon ball",
+    "design",
+    "patterns"
+  ],
+  "author": "Ruben O. Alvarado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubenOAlvarado/designPatterns/issues"
+  },
+  "homepage": "https://github.com/RubenOAlvarado/designPatterns/tree/main#readme",
+  "devDependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "^5.2.2"
+  }
+}

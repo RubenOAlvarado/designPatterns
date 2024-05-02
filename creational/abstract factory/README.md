@@ -2,7 +2,7 @@
 Abstract Factory is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
 
 ## Implementation
-In this example, we have an `AbstractFactory` class that has two methods, `createProductA` and `createProductB` that return `ProductA` and `ProductB` objects respectively. We have two subclasses of `AbstractFactory` class, `ConcreteFactory1` and `ConcreteFactory2` that override the `createProductA` and `createProductB` methods to return `ConcreteProductA1`, `ConcreteProductB1` and `ConcreteProductA2`, `ConcreteProductB2` objects respectively.
+In this example, we are using Dragon Ball manga editions as an example. We have two factories: KanzenbanFactory and TankobonFactory. Each factory creates two products: Kanzenban and Tankobon. The KanzenbanFactory creates Kanzenban and KanzenbanVolume, while the TankobonFactory creates Tankobon and TankobonVolume. Displaying the volumes of each factory, we can see that the KanzenbanFactory creates Kanzenban volumes, while the TankobonFactory creates Tankobon volumes.
 
 ## When to use
 Use the Abstract Factory pattern when your code needs to work with various families of related products, but you don’t want it to depend on the concrete classes of those products—they might be unknown beforehand or you simply want to allow for future extensibility.
@@ -40,7 +40,7 @@ productA2.usefulFunctionA(); // Output: The result of the product A2 collaborati
 - You can use Abstract Factory along with Singleton. The Singleton pattern can be applied to the factory classes.
 
 ## Class Diagram
-![Abstract Factory](https://upload.wikimedia.org/wikipedia/commons/9/9d/Abstract_factory_UML.svg)
+![Abstract Factory](https://reactiveprogramming.io/books/patterns/img/patterns-articles/abstract-factory-diagram.png)
 
 ## Applicability
 Use the Abstract Factory pattern when:

@@ -14,7 +14,7 @@ Cuando una clase no puede anticipar la clase de objetos que debe crear. Cuando u
 - Puede ser difícil de mantener si se crean muchas subclases.
 
 ## Ejemplo
-En este ejemplo, se crea una clase `Creator` que define un método `factoryMethod` que crea un objeto de tipo `Product`. Las subclases de `Creator` implementan el método `factoryMethod` para crear diferentes tipos de productos.
+En este ejemplo, se crea una clase `PokemonFactory` que tiene un método `createPokemon` que devuelve un objeto de tipo `Pokemon`. Se tienen subclases de la clase `PokemonFactory`, como `FirePokemonFactory` y `WaterPokemonFactory`, que implementan el método `createPokemon` para devolver objetos de tipo `FirePokemon` y `WaterPokemon` respectivamente.
 
 ## Relaciones con otros patrones
 - **Abstract Factory**: Factory Method es una forma específica de implementar el patrón Abstract Factory.
