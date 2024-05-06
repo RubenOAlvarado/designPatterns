@@ -20,7 +20,19 @@ Utiliza el patrón Builder cuando:
 - Puede ser difícil de mantener si se crean muchas subclases.
 
 ## Ejemplo
-En este ejemplo, se crea una clase `Pizza` que tiene un método `getPizza` que devuelve un objeto de tipo `Pizza`. Se tienen subclases de la clase `Pizza`, como `HawaiianPizza` y `PepperoniPizza`, que implementan el método `getPizza` para devolver objetos de tipo `HawaiianPizza` y `PepperoniPizza` respectivamente.
+```typescript
+const director = new Director();
+
+const builder1 = new ConcreteBuilder1();
+director.construct(builder1);
+const product1 = builder1.getProduct();
+product1.listParts(); // Output: PartA1, PartB1
+
+const builder2 = new ConcreteBuilder2();
+director.construct(builder2);
+const product2 = builder2.getProduct();
+product2.listParts(); // Output: PartX2, PartY2
+```
 
 ## Relaciones con otros patrones
 - **Abstract Factory**: Builder se puede utilizar para construir productos complejos que se crean a partir de productos simples creados por un Abstract Factory.
