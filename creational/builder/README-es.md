@@ -29,7 +29,7 @@ En este ejemplo, se crea una clase `Pizza` que tiene un método `getPizza` que d
 - **Template Method**: Builder se puede utilizar para construir objetos utilizando un Template Method.
 
 ## Diagrama de clases
-![Diagrama de clases](https://refactoring.guru/images/patterns/content/builder/builder.png)
+![Diagrama de clases](https://upload.wikimedia.org/wikipedia/commons/f/f3/Builder_UML_class_diagram.svg)
 
 ## Aplicabilidad
 Utiliza el patrón Builder cuando:
