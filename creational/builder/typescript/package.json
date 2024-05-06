@@ -1,0 +1,32 @@
+{
+  "name": "builder",
+  "version": "1.0.0",
+  "description": "Typescript implementation example for builder design pattern using stellar blade protagonist called Eve.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubenOAlvarado/designPatterns.git#main"
+  },
+  "keywords": [
+    "builder",
+    "typescript",
+    "stellar blade",
+    "eve",
+    "design",
+    "patterns"
+  ],
+  "author": "Ruben O. Alvarado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubenOAlvarado/designPatterns/issues"
+  },
+  "homepage": "https://github.com/RubenOAlvarado/designPatterns/tree/main#readme",
+  "devDependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "5.4.5"
+  }
+}

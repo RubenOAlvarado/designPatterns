@@ -2,7 +2,7 @@
 Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 
 ## Implementation
-In this example, we have a `Director` class that has a `construct` method that takes a `Builder` object as a parameter and calls the builder's methods to construct a `Product` object. We have two subclasses of `Builder` class, `ConcreteBuilder1` and `ConcreteBuilder2` that implement the builder's methods to construct a `Product1` and `Product2` object respectively.
+In this example, we have a `Eve` class. She is the female protagonist of a brand new game called `Stelllar Blade` and she has a `Builder` class that helps you to create her character. She can haave different types of `Hair`, `Eyes`, `Skin`, `Clothes`, and `Weapons`. The `Director` class is responsible for the construction process, while the `Builder` class provides the implementation for the construction steps. I haven't played the game yet, so forgive me if I get something wrong. 
 
 ## When to use
 Use the Builder pattern when you want to construct complex objects step by step and you want to produce different types and representations of an object using the same construction code.
