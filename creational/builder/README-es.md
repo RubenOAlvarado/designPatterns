@@ -41,7 +41,7 @@ product2.listParts(); // Output: PartX2, PartY2
 - **Template Method**: Builder se puede utilizar para construir objetos utilizando un Template Method.
 
 ## Diagrama de clases
-![Diagrama de clases](https://upload.wikimedia.org/wikipedia/commons/f/f3/Builder_UML_class_diagram.svg)
+![Diagrama de clases](https://media.geeksforgeeks.org/wp-content/uploads/uml-of-builedr.jpg)
 
 ## Aplicabilidad
 Utiliza el patrón Builder cuando:

@@ -42,7 +42,7 @@ product2.listParts(); // Output: PartX2, PartY2
 - You can use Builder along with Visitor. This lets you change the executing algorithm of an element without changing the element itself.
 
 ## Class Diagram
-![Builder](https://upload.wikimedia.org/wikipedia/commons/f/f3/Builder_UML_class_diagram.svg)
+![Builder](https://media.geeksforgeeks.org/wp-content/uploads/uml-of-builedr.jpg)
 
 ## Applicability
 Use the Builder pattern when:
