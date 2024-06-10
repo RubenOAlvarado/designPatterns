@@ -2,7 +2,7 @@
 Singleton is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
 ## Implementation
-In this example, we have a `Singleton` class that has a private static field `instance` that holds the singleton instance of the class. The class has a private constructor and a static method `getInstance` that returns the singleton instance of the class.
+In this example, we used Star Wars emperor Palpatine as a Singleton. There can be only one emperor in the galaxy. The dark lord of the Sith is a Singleton. The `getInstance` method returns the same instance of the emperor every time it’s called.
 
 ## When to use
 Use the Singleton pattern when a class in your program should have just a single instance available to all clients; for example, a single database object shared by different parts of the program.
